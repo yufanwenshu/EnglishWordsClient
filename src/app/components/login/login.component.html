@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="login-form">
+        <h1>用户登录</h1>
+        <mat-form-field class="mat-form" appearance="outline">
+            <mat-label>用户名</mat-label>
+            <input matInput class="mat-input" [(ngModel)]="user.username" placeholder="用户名">
+        </mat-form-field>
+        <mat-form-field class="mat-form" appearance="outline">
+            <mat-label>密码</mat-label>
+            <input matInput class="mat-input" type="password" [(ngModel)]="user.password" placeholder="密码">
+        </mat-form-field>
+        <br>
+        <div class="button-row">
+            <button mat-raised-button (click)="login()" color="primary" class="login-button">登录</button>
+        </div>
+    </div>
+</div>

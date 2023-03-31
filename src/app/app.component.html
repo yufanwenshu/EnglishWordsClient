@@ -1,1 +1,10 @@
-<mat-slide-toggle>Toggle me!</mat-slide-toggle>
+<!-- Toolbar -->
+<mat-toolbar class="mat-toolbar" color="primary">
+    <mat-toolbar-row id="row1">
+        <button mat-button class="toolbar-title" [routerLink]="'/index'">欢迎来到单词速记</button>
+        <button mat-button id="toolbar-button" [routerLink]="'/login'">登录</button>
+        <button mat-button id="toolbar-button">用户</button>
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<router-outlet></router-outlet>

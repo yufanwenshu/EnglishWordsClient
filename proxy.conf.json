@@ -1,0 +1,5 @@
+{
+    "/server/*": {
+        "tartget": "http:/localhost:8080"
+    }
+}
